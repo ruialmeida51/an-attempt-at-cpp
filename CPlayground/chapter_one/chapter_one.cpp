@@ -169,24 +169,6 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "Car name: " << toyota_corolla.name << " Engine size: " << toyota_corolla.engine_size << " Number of wheels: " << toyota_corolla.number_of_wheels << std::endl;
     
-    
-    /**
-    ===================================================
-     CHAPTER 1 - HEADER FILES.
-     ===================================================
-     */
-    
-    //Chapter 1 - Header files.
-    header_example_one headerExample; //Construct our new object.
-    
-    headerExample.do_something(); //Call the do_something method.
-    std::cout << "X Public variable is: " << headerExample.x_public << std::endl; //This will work nicely - it's a public variable.
-
-    // headerExample.do_something_in_private() //This will throw an error. Why? Because it's a private method, we can't access it outside our class.
-    //std::cout << headerExample.x_private << std::endl; //This will blow up, it's not a public variable.
-    
-    std::cout << std::endl;
-    
     /**
     ===================================================
      CHAPTER 1 - Standard Library Utilities
